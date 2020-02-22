@@ -1,7 +1,7 @@
 from Context.Events.BaseEvent import BaseEvent
 from Context.Util.Map.Map import Map
 from Context.Events.EventMaps.TextCommandsMap import TextCommandsMap
-from Context.Database.Repository.UserRepository import UserRepository
+from Context.Database.Repository.AdminRepository import AdminRepository
 
 class TextMessageAction(BaseEvent):
     def __init__(self, session, longpool):
@@ -12,8 +12,8 @@ class TextMessageAction(BaseEvent):
         sender_id = event.object.message['from_id']
         peer_id = event.object.message['peer_id']
 
-        user = UserRepository(sender_id, peer_id)
-        status = user.getUserStatus()
+        user = AdminRepository(sender_id, peer_id)
+        status = user.getAdminStatus()
 
         if(status == None):
             status = 0
@@ -31,8 +31,9 @@ class TextMessageAction(BaseEvent):
 
         eventCommandHandler = None;
 
-        if(self.isCommandGranted(event, equateBaseResult.getArgs())):
-            eventCommandHandler = equateBaseResult.getResult()
+        if(equateBaseResult != None):
+            if(self.isCommandGranted(event, equateBaseResult.getArgs())):
+                eventCommandHandler = equateBaseResult.getResult()
 
         if eventCommandHandler != None:
             eventHandler = eventCommandHandler(self._session, self._longpool, args)

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6272dc47-176c-4617-b3eb-868a2bfa92ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Context/Database/Repository/AdminRepository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Context/Database/Repository/PeerRepository.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Context/Database/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Database/Database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Database/Repository/UserRepository.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Database/Repository/UserRepository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventListener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Database/Repository/UserRepository.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageAction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageEvent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageEvent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Entry.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Context/Database/Repository" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Andrey\PycharmProjects\Kalistrat\venv\Context\Database\Repository" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Entry" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -82,22 +86,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582359055803" />
-    <state width="1345" height="133" key="GridCell.Tab.0.bottom" timestamp="1582387947217">
+    <state width="1345" height="133" key="GridCell.Tab.0.bottom" timestamp="1582389001598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582387947217" />
-    <state width="1345" height="133" key="GridCell.Tab.0.center" timestamp="1582387947217">
+    <state width="1345" height="133" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582389001598" />
+    <state width="1345" height="133" key="GridCell.Tab.0.center" timestamp="1582389001598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582387947217" />
-    <state width="1345" height="133" key="GridCell.Tab.0.left" timestamp="1582387947217">
+    <state width="1345" height="133" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582389001598" />
+    <state width="1345" height="133" key="GridCell.Tab.0.left" timestamp="1582389001597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582387947217" />
-    <state width="1345" height="133" key="GridCell.Tab.0.right" timestamp="1582387947217">
+    <state width="1345" height="133" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582389001597" />
+    <state width="1345" height="133" key="GridCell.Tab.0.right" timestamp="1582389001598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582387947217" />
+    <state width="1345" height="133" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582389001598" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582358927879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

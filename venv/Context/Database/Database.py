@@ -21,16 +21,26 @@ class Database(object):
         return cursor
 
     def sendNonReaderQuery(self, query, params):
+
+        cursor = self.getCursor(query, params)
+        cursor.close()
+
         pass
 
     def fetchResponse(self, query, params):
-        pass
+        cursor = self.getCursor(query, params)
+        data = cursor.fetchall()
+        cursor.close()
+
+        return data
 
     def fetchOnce(self, query, params):
-        pass
+        cursor = self.getCursor(query, params)
+        data = cursor.fetchone()
+        cursor.close()
+        return data
 
     def fetchScalar(self, query, params):
-
         cursor = self.getCursor(query, params)
         data = cursor.fetchall()
         cursor.close()
