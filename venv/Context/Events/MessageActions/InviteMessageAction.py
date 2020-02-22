@@ -1,3 +1,4 @@
+from Config import group_id
 from Context.Events.BaseEvent import BaseEvent
 
 class InviteMessageAction(BaseEvent):
@@ -6,7 +7,7 @@ class InviteMessageAction(BaseEvent):
 
     def onEventReceive(self, event):
 
-        print("User was invited")
-
-
-        pass
+        is_bot_invited = event.object.message["action"]["member_id"] == -group_id
+        if(is_bot_invited):
+            # write message
+            pass
