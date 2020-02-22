@@ -1,15 +1,9 @@
-from Context.Events.BaseEvent import BaseEvent
+from Context.Events.BaseCommandEvent import BaseCommandEvent
 
-class KickCommand(BaseEvent):
+class KickCommand(BaseCommandEvent):
 
-    def __init__(self, session, longpool):
-        super(KickCommand, self).__init__(session, longpool)
+    def __init__(self, session, longpool, args):
+        super(KickCommand, self).__init__(session, longpool, args)
 
     def onEventReceive(self, event):
-
         print("Kick called")
-
-
-
-
-        pass

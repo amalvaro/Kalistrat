@@ -16,6 +16,7 @@ class MessageEvent(BaseEvent):
         :param event: Global VK Event
         """
 
+
         eventHandler = None
 
         if("action" in event.object.message):

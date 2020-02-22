@@ -10,6 +10,8 @@ class UserRepository(object):
         self._id = id;
         self._chat_id = chat_id;
 
+        # load
+
     def wasRegistered(self):
         pass
 
@@ -19,3 +21,5 @@ class UserRepository(object):
     def deleteUser(self):
         pass
 
+    def getUserStatus(self):
+        return self._db.fetchScalar("SELECT `user_status` FROM `user` WHERE `user_id` = %s LIMIT 1", (self._id,))
