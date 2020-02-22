@@ -22,6 +22,8 @@ class EventListener(BaseEvent):
         :param event: Global VK Event
         """
 
+        print(event)
+
         map = Map(event.type)
         eventClassHandler = map.equate(EventListenerMap)
 

@@ -39,7 +39,6 @@ class TextMessageAction(BaseEvent):
             eventHandler.onEventReceive(event)
 
     def onEventReceive(self, event):
-        print(event)
 
         text = event.object.message["text"].strip()
         if(text[0] == "/"):

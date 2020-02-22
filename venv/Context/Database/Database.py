@@ -36,6 +36,6 @@ class Database(object):
         cursor.close()
 
         if len(data) == 1:
-            return data[0][0]
+          return data[0][0]
 
         return None
