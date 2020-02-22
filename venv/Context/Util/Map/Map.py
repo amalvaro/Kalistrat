@@ -30,3 +30,5 @@ class Map(object):
                 standart = element.getStandart()
                 if standart == self._trueStandart:
                     return element.getResult();
+
+        return None;

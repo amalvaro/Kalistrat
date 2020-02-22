@@ -22,10 +22,9 @@ class EventListener(BaseEvent):
         :param event: Global VK Event
         """
 
-        print(event)
-
         map = Map(event.type)
         eventClassHandler = map.equate(EventListenerMap)
 
-        eventHandler = eventClassHandler(self._session, self._longpool)
-        eventHandler.onEventReceive(event);
+        if eventClassHandler != None:
+            eventHandler = eventClassHandler(self._session, self._longpool)
+            eventHandler.onEventReceive(event);

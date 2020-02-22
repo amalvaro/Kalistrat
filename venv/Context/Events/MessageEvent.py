@@ -21,9 +21,13 @@ class MessageEvent(BaseEvent):
         if("action" in event.object.message):
             map = Map(event.object.message["action"]["type"])
             eventActionHandler = map.equate(MessageEventMap)
-            eventHandler = eventActionHandler(self._session, self._longpool)
+
+            if eventActionHandler != None:
+                eventHandler = eventActionHandler(self._session, self._longpool)
+
 
         else:
             eventHandler = TextMessageAction(self._session, self._longpool)
 
-        eventHandler.onEventReceive(event);
+        if eventHandler != None:
+            eventHandler.onEventReceive(event);
