@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6272dc47-176c-4617-b3eb-868a2bfa92ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventListener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Context/Database/Repository" />
@@ -78,29 +82,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582359060068" />
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582404983571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582404983571" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582359055803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582359055803" />
-    <state width="1345" height="133" key="GridCell.Tab.0.bottom" timestamp="1582389001598">
+    <state width="1345" height="119" key="GridCell.Tab.0.bottom" timestamp="1582409080858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582389001598" />
-    <state width="1345" height="133" key="GridCell.Tab.0.center" timestamp="1582389001598">
+    <state width="1345" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
+    <state width="1345" height="119" key="GridCell.Tab.0.center" timestamp="1582409080858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582389001598" />
-    <state width="1345" height="133" key="GridCell.Tab.0.left" timestamp="1582389001597">
+    <state width="1345" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
+    <state width="1345" height="119" key="GridCell.Tab.0.left" timestamp="1582409080858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582389001597" />
-    <state width="1345" height="133" key="GridCell.Tab.0.right" timestamp="1582389001598">
+    <state width="1345" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
+    <state width="1345" height="119" key="GridCell.Tab.0.right" timestamp="1582409080858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="133" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582389001598" />
+    <state width="1345" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582408941649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582408941649" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1582408941648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582408941648" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1582408941648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582408941648" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1582408941649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582408941649" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582358927879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582358927879" />
+    <state x="333" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582403006434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="333" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1582403006434" />
   </component>
 </project>
