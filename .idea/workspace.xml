@@ -4,9 +4,16 @@
     <list default="true" id="6272dc47-176c-4617-b3eb-868a2bfa92ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Database/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Database/Database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Database/Repository/AdminRepository.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Database/Repository/AdminRepository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/BaseCommandEvent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/BaseCommandEvent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventListener.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageAction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickCommand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/SetupCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/SetupCommand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Util/Map/Map.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Util/Map/Map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Util/Vk/Message.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Util/Vk/Message.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Context/Database/Repository" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,42 +98,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582359055803" />
-    <state width="1345" height="119" key="GridCell.Tab.0.bottom" timestamp="1582409080858">
+    <state width="1345" height="119" key="GridCell.Tab.0.bottom" timestamp="1582462444279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
-    <state width="1345" height="119" key="GridCell.Tab.0.center" timestamp="1582409080858">
+    <state width="1345" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582462444279" />
+    <state width="1345" height="119" key="GridCell.Tab.0.center" timestamp="1582462444279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
-    <state width="1345" height="119" key="GridCell.Tab.0.left" timestamp="1582409080858">
+    <state width="1345" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582462444279" />
+    <state width="1345" height="119" key="GridCell.Tab.0.left" timestamp="1582462444279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
-    <state width="1345" height="119" key="GridCell.Tab.0.right" timestamp="1582409080858">
+    <state width="1345" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582462444279" />
+    <state width="1345" height="119" key="GridCell.Tab.0.right" timestamp="1582462444279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582409080858" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582408941649">
+    <state width="1345" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582462444279" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582409265189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582408941649" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1582408941648">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582409265189" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1582409265189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582408941648" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1582408941648">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582409265189" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1582409265189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582408941648" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1582408941649">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582409265189" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1582409265189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582408941649" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582358927879">
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582409265189" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582444041887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582358927879" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582444041887" />
     <state x="333" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582403006434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

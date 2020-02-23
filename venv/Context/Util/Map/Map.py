@@ -43,4 +43,9 @@ class Map(object):
         return None;
 
     def equate(self, map):
-        return self.equateBase(map).getResult();
+
+        response = self.equateBase(map)
+        if(response != None):
+            return response.getResult();
+
+        return None

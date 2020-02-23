@@ -36,9 +36,9 @@ class EventListener(BaseEvent):
             except ApiError as ae:
                 mapError = Map(ae.code)
                 eventApiErrorHandler = mapError.equate(ApiErrorMap)
-                eventHandler = eventApiErrorHandler(self._session, self._longpool)
 
                 if(eventApiErrorHandler != None):
+                    eventHandler = eventApiErrorHandler(self._session, self._longpool)
                     eventHandler.onEventReceive(event)
                 else:
                     print(ae)

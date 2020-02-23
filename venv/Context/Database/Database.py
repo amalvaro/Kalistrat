@@ -25,12 +25,16 @@ class Database(object):
         cursor = self.getCursor(query, params)
         cursor.close()
 
+        self.__connection.commit()
+
         pass
 
     def fetchResponse(self, query, params):
         cursor = self.getCursor(query, params)
         data = cursor.fetchall()
+
         cursor.close()
+        self.__connection.commit()
 
         return data
 
@@ -38,12 +42,17 @@ class Database(object):
         cursor = self.getCursor(query, params)
         data = cursor.fetchone()
         cursor.close()
+
+        self.__connection.commit()
+
         return data
 
     def fetchScalar(self, query, params):
         cursor = self.getCursor(query, params)
         data = cursor.fetchall()
         cursor.close()
+
+        self.__connection.commit()
 
         if len(data) == 1:
           return data[0][0]

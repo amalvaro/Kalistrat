@@ -9,4 +9,4 @@ class BaseCommandEvent(BaseEvent):
         self.__args = args
 
     def getCommandArgs(self):
-        self.__args;
+        return self.__args;
