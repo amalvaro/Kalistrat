@@ -4,7 +4,7 @@ import re
 class ArgumentParser(object):
 
     def parseChatArguments(text):
-        return re.findall("=?\[.*?\]|\w+", text)
+        return re.findall("=?\[.*?\]|\S+", text)
 
     def combineArgsFrom(index, args):
         """
