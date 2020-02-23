@@ -12,6 +12,7 @@ from Context.Events.MessageActions.TextMessageCommands.BanCommand import BanComm
 from Context.Events.MessageActions.TextMessageCommands.UnbanCommand import UnbanCommand
 from Context.Events.MessageActions.TextMessageCommands.BanlistCommand import BanlistCommand
 from Context.Events.MessageActions.TextMessageCommands.GetbanCommand import GetbanCommand
+from Context.Events.MessageActions.TextMessageCommands.WarnCommand import WarnCommand
 
 TextCommandsMap = [
 
@@ -33,7 +34,7 @@ TextCommandsMap = [
     BaseElement(UnbanCommand, "/unban",          {"level": 2, 'count_args': 2, 'args_exc': "Введите /unban [user/group] [link]"}),
     BaseElement(BanlistCommand, "/banlist",        {"level": 2, 'count_args': 1, 'args_exc': "Введите /banlist"}),
     BaseElement(GetbanCommand, "/getban",         {"level": 2, 'count_args': 3, 'args_exc': "Введите /getban [group/user] [link]"}),
-    BaseElement(HelpCommand, "/warn",           {"level": 2, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
+    BaseElement(WarnCommand, "/warn",           {"level": 2, 'count_args': 3, 'args_exc': "Введите /warn [userId] [reason]"}),
     BaseElement(HelpCommand, "/unwarn",         {"level": 2, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
     BaseElement(HelpCommand, "/getwarn",        {"level": 2, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
     BaseElement(HelpCommand, "/warnlist",       {"level": 2, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),

@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6272dc47-176c-4617-b3eb-868a2bfa92ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Database/Repository/AdminRepository.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Database/Repository/AdminRepository.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/AddmoderCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/AddmoderCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/BanCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/BanCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/BanlistCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/BanlistCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/GetbanCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/GetbanCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/ModerlistCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/ModerlistCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/RemovemodelCommand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/UnbanCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/UnbanCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Util/ArgumentParser/ArgumentParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Util/ArgumentParser/ArgumentParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Util/Vk/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Util/Vk/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/WarnCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/WarnCommand.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,22 +90,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582359055803" />
-    <state width="1345" height="119" key="GridCell.Tab.0.bottom" timestamp="1582480040179">
+    <state width="1345" height="119" key="GridCell.Tab.0.bottom" timestamp="1582492004027">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582480040179" />
-    <state width="1345" height="119" key="GridCell.Tab.0.center" timestamp="1582480040179">
+    <state width="1345" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582492004027" />
+    <state width="1345" height="119" key="GridCell.Tab.0.center" timestamp="1582492004026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582480040179" />
-    <state width="1345" height="119" key="GridCell.Tab.0.left" timestamp="1582480040179">
+    <state width="1345" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582492004026" />
+    <state width="1345" height="119" key="GridCell.Tab.0.left" timestamp="1582492004026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582480040179" />
-    <state width="1345" height="119" key="GridCell.Tab.0.right" timestamp="1582480040179">
+    <state width="1345" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582492004026" />
+    <state width="1345" height="119" key="GridCell.Tab.0.right" timestamp="1582492004027">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582480040179" />
+    <state width="1345" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582492004027" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582475417521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
