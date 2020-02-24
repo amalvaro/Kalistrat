@@ -2,6 +2,8 @@
 import re
 import random
 from enum import Enum
+from Context.Util.Vk.User import User
+from Context.Util.Vk.Group import Group
 
 class MentionType(Enum):
     USER    = 0,
@@ -33,6 +35,7 @@ class Mention(object):
         target = int(self._id)
         target = target if self.getMentionType() == MentionType.USER else -target
         return target
+
 
 class Message(object):
 
@@ -81,3 +84,19 @@ class Message(object):
 
     def getPeerByChat(chat_id):
         return chat_id + 2000000000
+
+
+    def getFullMention(self, basic_mention, case_name = ""):
+        name    = ""
+        prefix  = ""
+
+        target_id = basic_mention.getId()
+
+        if (basic_mention.getMentionType() == MentionType.USER):
+            name = User(self.__session).getUserName(target_id, case_name)
+            prefix = "id"
+        else:
+            name = Group(self.__session).getGroupName(target_id)
+            prefix = "club"
+
+        return "@%s%s (%s)" % (prefix, target_id, name)

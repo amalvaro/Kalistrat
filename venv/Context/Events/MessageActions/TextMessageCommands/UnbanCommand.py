@@ -12,8 +12,6 @@ class UnbanCommand(BaseCommandEvent):
     def __init__(self, session, longpool, args):
         super(UnbanCommand, self).__init__(session, longpool, args)
 
-
-
     def onEventReceive(self, event):
 
         peer_id = event.object.message["peer_id"]
@@ -23,7 +21,6 @@ class UnbanCommand(BaseCommandEvent):
         if pureIndex == None:
             Message(self._session).send(peer_id, "Неверный идентификатор")
             return
-
 
         id = None
         if args[1] == "user":

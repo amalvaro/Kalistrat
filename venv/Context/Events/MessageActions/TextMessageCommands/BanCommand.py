@@ -23,16 +23,7 @@ class BanCommand(BaseCommandEvent):
             if(repos.is_banned() == False):
                 repos.ban(reason)
 
-            name = ""
-            prefix = ""
-
-            if(id.getMentionType() == MentionType.USER):
-                name = User(self._session).getUserName(target_id, "dat")
-                prefix="id"
-            else:
-                name = Group(self._session).getGroupName(id.getId())
-                prefix="club"
-
             message = Message(self._session)
-            message.send(peer_id, "@%s%s (%s) выдана блокировка с причиной %s" % (prefix, id.getId(), name, reason))
+            mention_string = message.getFullMention(id, "dat")
+            message.send(peer_id, "%s выдана блокировка с причиной %s" % (mention_string, reason))
             message.removeChatUser(Message.getChatByPeer(peer_id), target_id)

@@ -37,4 +37,4 @@ class AdminRepository(object):
         return response
 
     def getListByStatus(peer_id, status):
-        return AdminRepository._db.fetchResponse("SELECT user_id FROM `admins` WHERE user_status=%s and `peer_id` = %s", (status, peer_id))
+        return AdminRepository._db.fetchResponse("SELECT user_id FROM `admins` WHERE user_status=%s and `peer_id` = %s LIMIT 100", (status, peer_id))

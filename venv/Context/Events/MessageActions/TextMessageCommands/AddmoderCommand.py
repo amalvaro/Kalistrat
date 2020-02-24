@@ -10,14 +10,15 @@ class AddmoderCommand(BaseCommandEvent):
         super(AddmoderCommand, self).__init__(session, longpool, args)
 
     def onEventReceive(self, event):
-
         peer_id = event.object.message["peer_id"]
-
         id = Message.getMention(event)
-
         if id != False:
             peer_id = event.object.message["peer_id"]
             member_id = id.getPeerId()
-            AdminRepository(member_id, peer_id).createAdmin(AUTHORITY.MODERATOR)
+            repos = AdminRepository(member_id, peer_id)
+            if repos.isCreated():
+                repos.setAdminStatus(AUTHORITY.MODERATOR)
+            else:
+                repos.createAdmin(AUTHORITY.MODERATOR)
             user_name = User(self._session).getUserName(member_id)
             Message(self._session).send(peer_id, "@id%s (%s) вам выданы права модератора" % (member_id, user_name))

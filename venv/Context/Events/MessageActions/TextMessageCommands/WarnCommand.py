@@ -16,27 +16,18 @@ class WarnCommand(BaseCommandEvent):
 
         id = Message.getMention(event)
 
-        if(id != None):
+        if id != False:
             reason = ArgumentParser.combineArgsFrom(2, self.getCommandArgs())
-            target_id = id.getId()
+            target_id = id.getPeerId()
             repos = WarnRepository(target_id, peer_id)
 
-            name    = ""
-            prefix  = ""
-
-            if (id.getMentionType() == MentionType.USER):
-                name = User(self._session).getUserName(target_id, "dat")
-                prefix = "id"
-            else:
-                name = Group(self._session).getGroupName(target_id)
-                prefix = "club"
-
             message = Message(self._session)
+            full_mention = message.getFullMention(id)
+            repos.warn(reason)
 
             if (repos.is_warned() == False):
-                repos.warn(reason)
-                message.send(peer_id, "@%s%s (%s) выдано предупреждение с причиной %s" % (prefix, target_id, name, reason))
+                message.send(peer_id, "%s получил(а) предупреждение с причиной %s" % (full_mention, reason))
             else:
                 message.send(peer_id,
-                             "@%s%s (%s) был заблокирован (3/3) варнов с причиной %s" % (prefix, target_id, name, reason))
-                message.removeChatUser(Message.getChatByPeer(peer_id), id.getPeerId())
+                             "%s был заблокирован (3/3) варнов с причиной %s" % (full_mention, reason))
+                message.removeChatUser(Message.getChatByPeer(peer_id), target_id)

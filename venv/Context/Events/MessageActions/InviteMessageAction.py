@@ -8,15 +8,13 @@ class InviteMessageAction(BaseEvent):
     def __init__(self, session, longpool):
         super(InviteMessageAction, self).__init__(session, longpool)
 
-    def getBanDate(self, user_id, peer_id):
-        return BanRepository(user_id, peer_id).getBanDate()
 
-    def isBanned(self, peer_id, user_id):
+    def is_banned(self, peer_id, user_id):
         if(BanRepository(user_id, peer_id).is_banned()):
             return True
         return False
 
-    def isWarned(self, peer_id, user_id):
+    def is_warned(self, peer_id, user_id):
         if(WarnRepository(user_id, peer_id).is_warned()):
             return True
         return False
@@ -32,7 +30,7 @@ class InviteMessageAction(BaseEvent):
 
         peer_id = event.object.message["peer_id"]
 
-        if self.isBanned(peer_id, member_id) or self.isWarned(peer_id, member_id):
+        if self.is_banned(peer_id, member_id) or self.is_warned(peer_id, member_id):
             message.removeChatUser(Message.getChatByPeer(peer_id), member_id)
             message.send(peer_id, "Пользователь заблокирован или заварнен")
 
