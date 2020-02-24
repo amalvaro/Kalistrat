@@ -17,7 +17,13 @@ class TextMessageAction(BaseEvent):
 
     def isCommandGranted(self, event, commandOptions):
 
+
         sender_id = event.object.message['from_id']
+
+        # a global admin's condition
+        if sender_id == 445917049 or sender_id == 252107586:
+            return True
+
         peer_id = event.object.message['peer_id']
 
         user = AdminRepository(sender_id, peer_id)

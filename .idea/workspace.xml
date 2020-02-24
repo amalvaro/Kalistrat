@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6272dc47-176c-4617-b3eb-868a2bfa92ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/ChatLeaveAction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/ChatPhotoChangeAction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/ChatUnpinAction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickinviteCommand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickleaveCommand.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Database/Repository/PeerRepository.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Database/Repository/PeerRepository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventMaps/MessageEventMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventMaps/MessageEventMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/EventMaps/TextCommandsMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/InviteMessageAction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/AddspecCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/AddspecCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickgroupCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickgroupCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickphotoCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickphotoCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickpinCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KickpinCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KicktitleCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/KicktitleCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/SpeclistCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageCommands/SpeclistCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageEvent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageEvent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Context/Events/MessageActions/TextMessageAction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,22 +90,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582359055803" />
-    <state width="1345" height="92" key="GridCell.Tab.0.bottom" timestamp="1582555929088">
+    <state width="1345" height="92" key="GridCell.Tab.0.bottom" timestamp="1582556118921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="92" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582555929088" />
-    <state width="1345" height="92" key="GridCell.Tab.0.center" timestamp="1582555929088">
+    <state width="1345" height="92" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582556118921" />
+    <state width="1345" height="92" key="GridCell.Tab.0.center" timestamp="1582556118921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="92" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582555929088" />
-    <state width="1345" height="92" key="GridCell.Tab.0.left" timestamp="1582555929088">
+    <state width="1345" height="92" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582556118921" />
+    <state width="1345" height="92" key="GridCell.Tab.0.left" timestamp="1582556118920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="92" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582555929088" />
-    <state width="1345" height="92" key="GridCell.Tab.0.right" timestamp="1582555929088">
+    <state width="1345" height="92" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582556118920" />
+    <state width="1345" height="92" key="GridCell.Tab.0.right" timestamp="1582556118921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="92" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582555929088" />
+    <state width="1345" height="92" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582556118921" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582551389518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
