@@ -21,6 +21,11 @@ from Context.Events.MessageActions.TextMessageCommands.AdminlistCommand import A
 from Context.Events.MessageActions.TextMessageCommands.FilterCommand import FilterCommand
 from Context.Events.MessageActions.TextMessageCommands.RfilterCommand import RfilterCommand
 from Context.Events.MessageActions.TextMessageCommands.FlistCommand import FlistCommand
+from Context.Events.MessageActions.TextMessageCommands.AddspecCommand import AddspecCommand
+
+from Context.Events.MessageActions.TextMessageCommands.SpeclistCommand import SpeclistCommand
+from Context.Events.MessageActions.TextMessageCommands.KalistratCommand import KalistratCommand
+from Context.Events.MessageActions.TextMessageCommands.DemoteCommand import DemoteCommand
 
 TextCommandsMap = [
 
@@ -55,13 +60,12 @@ TextCommandsMap = [
     BaseElement(FlistCommand, "/flist",          {"level": 3, 'count_args': 1, 'args_exc': "Введите /flist"}),
 
     # Creator
-    BaseElement(HelpCommand, "/addspec",        {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/removespec",     {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/speclist",       {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/калистрат",      {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/demote",         {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/kickgroup",      {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/kicktitle",      {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/kickzakrep",     {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"}),
-    BaseElement(HelpCommand, "/kickphoto",      {"level": 4, 'count_args': 2, 'args_exc': "Введите /kick [userId]"})
+    BaseElement(AddspecCommand, "/setgaadm",        {"level": 4, 'count_args': 2, 'args_exc': "Введите /setgaadm [mention]"}),
+    BaseElement(SpeclistCommand, "/gaadmlist",       {"level": 4, 'count_args': 1, 'args_exc': "Введите /gaadmlist"}),
+    BaseElement(KalistratCommand, "/калистрат",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /калистрат"}),
+    BaseElement(DemoteCommand, "/demote",         {"level": 4, 'count_args': 1, 'args_exc': "Введите /demote"}),
+    BaseElement(HelpCommand, "/kickgroup",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickgroup"}),
+    BaseElement(HelpCommand, "/kicktitle",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kicktitle"}),
+    BaseElement(HelpCommand, "/kickzakrep",     {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickzakrep"}),
+    BaseElement(HelpCommand, "/kickphoto",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickphoto"})
 ]
