@@ -19,6 +19,7 @@ class MessageEvent(BaseEvent):
         eventHandler = None
 
         if("action" in event.object.message):
+            #print(event.object.message["action"])
             map = Map(event.object.message["action"]["type"])
             eventActionHandler = map.equate(MessageEventMap)
 

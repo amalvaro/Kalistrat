@@ -21,4 +21,4 @@ class AddspecCommand(BaseCommandEvent):
             else:
                 repos.createAdmin(AUTHORITY.SPECIAL_ADMIN)
             user_name = User(self._session).getUserName(member_id)
-            Message(self._session).send(peer_id, "@id%s (%s) вам выданы права создателя конференции" % (member_id, user_name))
+            Message(self._session).send(peer_id, "@id%s (%s) вам выданы права главного администратора" % (member_id, user_name))

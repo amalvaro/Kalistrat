@@ -27,6 +27,6 @@ class SpeclistCommand(BaseCommandEvent):
                 messageString = messageString + "@id" + str(users[i]["id"]) + " (" + users[i]["first_name"] + " " + \
                                 users[i]["last_name"] + ")\n"
             if (messageString != ""):
-                Message(self._session).send(peer_id, "Список создателей: \n\n" + messageString)
+                Message(self._session).send(peer_id, "Список  главных администраторов: \n\n" + messageString)
         else:
-            Message(self._session).send(peer_id, "Создатели отсутствуют")
+            Message(self._session).send(peer_id, "Главные администраторы отсутствуют")

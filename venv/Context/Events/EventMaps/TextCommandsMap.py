@@ -26,6 +26,12 @@ from Context.Events.MessageActions.TextMessageCommands.AddspecCommand import Add
 from Context.Events.MessageActions.TextMessageCommands.SpeclistCommand import SpeclistCommand
 from Context.Events.MessageActions.TextMessageCommands.KalistratCommand import KalistratCommand
 from Context.Events.MessageActions.TextMessageCommands.DemoteCommand import DemoteCommand
+from Context.Events.MessageActions.TextMessageCommands.KickgroupCommand import KickgroupCommand
+from Context.Events.MessageActions.TextMessageCommands.KicktitleCommand import KicktitleCommand
+from Context.Events.MessageActions.TextMessageCommands.KickpinCommand import KickpinCommand
+from Context.Events.MessageActions.TextMessageCommands.KickphotoCommand import KickphotoCommand
+from Context.Events.MessageActions.TextMessageCommands.KickleaveCommand import KickleaveCommand
+from Context.Events.MessageActions.TextMessageCommands.KickinviteCommand import KickinviteCommand
 
 TextCommandsMap = [
 
@@ -64,8 +70,13 @@ TextCommandsMap = [
     BaseElement(SpeclistCommand, "/gaadmlist",       {"level": 4, 'count_args': 1, 'args_exc': "Введите /gaadmlist"}),
     BaseElement(KalistratCommand, "/калистрат",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /калистрат"}),
     BaseElement(DemoteCommand, "/demote",         {"level": 4, 'count_args': 1, 'args_exc': "Введите /demote"}),
-    BaseElement(HelpCommand, "/kickgroup",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickgroup"}),
-    BaseElement(HelpCommand, "/kicktitle",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kicktitle"}),
-    BaseElement(HelpCommand, "/kickzakrep",     {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickzakrep"}),
-    BaseElement(HelpCommand, "/kickphoto",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickphoto"})
+
+    BaseElement(KickgroupCommand, "/kickgroup",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickgroup"}),
+    BaseElement(KicktitleCommand, "/kicktitle",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kicktitle"}),
+    BaseElement(KickpinCommand, "/kickzakrep",     {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickzakrep"}),
+    BaseElement(KickinviteCommand, "/kickinvite", {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickinvite"}),
+    BaseElement(KickphotoCommand, "/kickphoto",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickphoto"}),
+
+    BaseElement(KickleaveCommand, "/kickleave",      {"level": 4, 'count_args': 1, 'args_exc': "Введите /kickleave"})
+
 ]
